@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+  background-color: #FFC000;
+  margin:0;
+  padding:0;
+    font-family: 'Climate Crisis', cursive;
+}
+
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh;
+  color: white;
+  text-align:center;
+}
+
+.next {
+  text-align:center;
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+}
+
+.name {
+/*   background-color: white; */
+  color: #FFC000;
+  font-size: 4rem;
+  margin:0;
+}
+.credit {
+/*   background-color: white; */
+  color: #FFC000;
+  font-size: 2rem;
+  margin:0px;
+}
+
+.codebox {
+  border-radius:25px;
+  background:#3d3d3d;
+  width:50%;
+  height:50%;
+  color:white;
+  text-align:left;
+  font-family: 'Source Code Pro', monospace;
+  padding:10px;
+}
